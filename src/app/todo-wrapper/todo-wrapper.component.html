@@ -1,0 +1,7 @@
+<h1>Todo List</h1>
+<app-todo-form (add)="addTodo($event)"></app-todo-form>
+<app-todo-list
+  [todos]="todos"
+  (delete)="deleteTodo($event)"
+  (toggle)="toggleCompletion($event)"
+></app-todo-list>

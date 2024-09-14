@@ -1,0 +1,28 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+
+}
+
+span {
+  cursor: pointer;
+}
+
+span.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+}

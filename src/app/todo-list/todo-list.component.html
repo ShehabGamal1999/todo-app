@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let todo of todos">
+    <span [class.completed]="todo.completed" (click)="toggle.emit(todo.id)">
+      {{ todo.title }}
+    </span>
+    <button (click)="delete.emit(todo.id)">Delete</button>
+  </li>
+</ul>
